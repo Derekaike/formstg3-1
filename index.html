@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mentoria</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Staatliches&display=swap" rel="stylesheet">
+    </head>
+<body>
+    <header>
+        <div id="title">
+            <h1>Mentoria</h1>
+            <p>Preencha o formulário abaixo para <br> agendar a sua mentoria</p>
+        </div>
+    </header>
+    <main>
+        <form action="">
+            <h2>INFORMAÇÕES PESSOAIS</h2>
+            <div class="user-info">
+                <div class="input-wrapper">
+                    <label for="">Nome</label>
+                    <input type="text">
+                </div>
+                <div class="input-wrapper">
+                    <label for="">Sobrenome</label>
+                    <input type="text">
+                </div>
+            </div>
+            <div class="input-wrapper">
+                <label for="">E-mail <span>(digite um email válido)</span></label>
+                <input type="email">
+            </div>
+            <div class="input-wrapper">
+                <label for="">Senha <span>(mínimo de 6 caracteres)</span></label>
+                <input type="password">
+            </div>
+            <h2>INFORMAÇÕES DO MENTOR</h2>
+            <div class="input-wrapper">
+                <label for="">Nome do seu mentor <span>(só o primeiro nome)</span></label>
+                <input type="text">
+            </div>
+            <h2>SEUS HORÁRIOS DISPONÍVEIS</h2>
+            <div class="col-3">
+                <div class="first">
+                    <div class="input-wrapper">
+                        <label for="">Data <span>(DD/MM/AAA)</span></label>
+                        <input type="date">
+                    </div>
+                    <div class="input-wrapper">
+                        <label for="">Das:</label>
+                        <input type="time">
+                    </div>
+                    <div class="input-wrapper">
+                        <label for="">Até:</label>
+                        <input type="time">
+                    </div>
+                </div>
+                <div class="second">
+                    <div class="input-wrapper">
+                        <label for="">Data <span>(DD/MM/AAA)</span></label>
+                        <input type="date">
+                    </div>
+                    <div class="input-wrapper">
+                        <label for="">Das:</label>
+                        <input type="time">
+                    </div>
+                    <div class="input-wrapper">
+                        <label for="">Até:</label>
+                        <input type="time">
+                    </div>
+                </div>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <button>SALVAR!</button>
+    </footer>
+</body>
+</html>
